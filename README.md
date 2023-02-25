@@ -9,6 +9,6 @@ Or:
 ```python plot.py```
 
 ##View in Google Earth:
-https://earth.google.com/web/\
-Left Nav Bar > Projects\
+https://earth.google.com/web/</br>
+Left Nav Bar > Projects</br>
 New Project > Import KML file from computer
