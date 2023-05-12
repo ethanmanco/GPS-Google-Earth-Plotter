@@ -10,8 +10,8 @@ with open(filename, 'r') as csvfile:
     csvreader = csv.reader(csvfile)
     next(csvreader)  # skip header row
     for row in csvreader:
-        if len(row) >= 12 and row[11] == '1':  # check if column L is equal to 1
-            coords_list.append((float(row[6]), float(row[7]), float(row[8])))  # save columns G, H, and I as a tuple of coordinates
+        if len(row) >= 16 and row[16] == '1':  # check if column L is equal to 1
+            coords_list.append((float(row[7]), float(row[8]), float(row[9])))  # save columns G, H, and I as a tuple of coordinates
 
 print(coords_list)
 
